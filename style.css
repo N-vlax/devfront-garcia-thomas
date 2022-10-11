@@ -1,3 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
 #BarreTopRetour {
     display: flex;
     background-color: black;
@@ -8,8 +18,53 @@
     color: white;
 }
 
+
+
+
+#Navbar {
+    display: flex;
+    height: 80px;
+    
+    justify-content: space-between;
+}
+
 #logo {
     display: flex;
-    height: 65px;
-    width: 65px;
+    width: 33%;
 }
+
+#lienCentraux {
+
+    display: flex;
+    width: 33%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.iconeNav{
+
+    height: 20px;
+    width: 20px;
+}
+
+#iconPosition{
+    display: flex;
+    width: 33%;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+
+#backgroundVideo{
+    max-width: 100%;
+    
+    
+}
+
+
+
+
