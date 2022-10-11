@@ -1,0 +1,15 @@
+#BarreTopRetour {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+#ColorBarreTopTxt {
+    color: white;
+}
+
+#logo {
+    display: flex;
+    height: 65px;
+    width: 65px;
+}
