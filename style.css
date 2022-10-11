@@ -58,13 +58,34 @@ body {
     
 }
 
+#videoContent{
+    position: relative;
+}
 
 #backgroundVideo{
     max-width: 100%;
-    
-    
+    position: absolute;
 }
 
+#txtVid{
 
+    padding-top: 20%;
+    padding-left: 10%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}   
 
+#posTitre{
+    display: flex;
+}
 
+#posPara{
+   
+}
+
+#test{
+    background-color: black;
+    height: 1100px;
+}
