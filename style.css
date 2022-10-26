@@ -138,23 +138,69 @@ margin-left: 4%;
     display: flex;
     width: 100%;
     padding-top: 1%;
+    justify-content: center;
     
-
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 33%;
-    
+    max-width: 20%;
 
 }
 
 .dim {
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .imgDim {
-    max-height: 50%;
+    max-height: 60%;
+}
+
+
+.containerBox2 {
+    display: flex;
+    width: 100%;
+    padding-top: 1%;
+    justify-content: start;
+    
+}
+
+
+
+
+#barreJauneMembre {
+    background-color: yellow;
+    margin-top: 4%;
+    height: 16%;
+}
+
+
+#barreJauneTxt {
+    text-decoration: black;
+    font-family: 'Roboto' black;
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    padding: 2%;    
+    
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    background-color: dimgrey;
+    height: 5%;
+    justify-content: center;
+    
+}
+
+.txtFooter {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 1%;
+    margin-left: 2%;
+    a
 }
