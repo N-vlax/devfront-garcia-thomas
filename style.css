@@ -13,6 +13,8 @@ body {
     display: flex;
     background-color: black;
     justify-content: center;
+    align-items: center;
+    height: 4%;
 }
 
 #ColorBarreTopTxt {
@@ -31,6 +33,15 @@ body {
 #logo {
     display: flex;
     width: 33%;
+    align-items: center;
+
+}
+
+#logoDim {
+    height: 80%;
+
+
+
 }
 
 #lienCentraux {
@@ -70,13 +81,13 @@ body {
 
 #txtVid{
 
-    padding-top: 20%;
+    padding-top: 15%;
     padding-left: 10%;
     display: flex;
     flex-direction: column;
     position: absolute;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: white;
 }   
 
@@ -90,7 +101,7 @@ body {
 
 #test{
     background-color: black;
-    height: 1100px;
+    height: 750px;
     position: static;
 }
 
@@ -103,4 +114,47 @@ body {
    padding-top: 20px;
    padding-bottom: 20px;
 
+}
+
+.cardProduitsCarre {
+    width: 50%;
+}
+
+
+
+h3 {
+    font-size: xx-large;
+}
+
+.selectArt {
+margin-top: 4%;
+margin-left: 4%;
+}
+
+
+
+
+.containerBox {
+    display: flex;
+    width: 100%;
+    padding-top: 1%;
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 33%;
+    
+
+}
+
+.dim {
+    max-width: 70%;
+}
+
+.imgDim {
+    max-height: 50%;
 }
