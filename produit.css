@@ -103,13 +103,14 @@ body {
 
 #titre { 
     font-size: xx-large;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
+    margin-top: -1%;
 }
 
 #descProduit {
     display: flex;
     flex-direction: column;
-    margin-top: 6%;
+    margin-top: %;
     width: 35%;
 }
 
