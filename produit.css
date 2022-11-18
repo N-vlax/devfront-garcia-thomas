@@ -92,19 +92,28 @@ body {
 #placementElements {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #imgAvant {
-    width: 35%;
-    margin-right: 5%;
+    width: 40%;
+    margin-right: 3%;
     
+}
+
+#titre { 
+    font-size: xx-large;
 }
 
 #descProduit {
     display: flex;
     flex-direction: column;
+    margin-top: 8%;
     width: 35%;
+}
+
+.margBot {
+    margin-bottom: 3%;
 }
 
 .imgPetitDesc {
@@ -113,6 +122,7 @@ body {
 }
 
 .btnColor {
-    width: 7%;
-    height: 7%;
+    width: 4%;
+    height: 100%;
 }
+
