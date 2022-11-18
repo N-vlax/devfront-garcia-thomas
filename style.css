@@ -79,6 +79,17 @@ body {
     
 }
 
+#svgPanier {
+    color: black;
+    width: 10%;
+}
+
+#panierMarge {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
 #videoContent{
     position: relative;
 }
