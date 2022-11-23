@@ -14,3 +14,20 @@ const Chaussure6 = new Chaussure('src/Chaussure 6.webp','Chaussure Daily 3.2','S
 const Chaussure7 = new Chaussure('src/Chaussure 7.webp','Chaussure Trezoid','Originals',130);
 const Chaussure8 = new Chaussure('src/Chaussure 8.webp','Chaussure Forum Low dos','Originals',130);
 const Chaussure9 = new Chaussure('src/Chaussure 9.webp','Chaussure M&M S x ADIDAS','Originals',130);
+
+let chaussure = [];
+chaussure.push(Chaussure1,Chaussure2,Chaussure3,Chaussure4,Chaussure5,Chaussure6,Chaussure7,Chaussure8,Chaussure9);
+
+function listeAll(){
+    let listeChaussure = '';
+
+    chaussure.forEach(prod =>
+        listeChaussure += `
+        <tr class"txtCenterJs>
+            <td><imf src= ${prod.img} class "respImgJs"
+            <td>${prod.nom}</td>
+        `
+        )
+
+        document.getElementById('test').innerHTML = listeChaussure
+}
