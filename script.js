@@ -73,6 +73,30 @@ function changeQuantite(produit, quantite) {
     let foundProduit = panier.find(x => x.id == produit.id );
     if (foundProduit != undefined) {
         foundProduit.quantite += quantite;
+        if (foundProduit.quantite <= 0){
+            removeFromPanier(foundProduit);
+        }else{
+            savePanier(panier);
+        }
     }
-    savePanier(panier);
+}
+
+
+function getNombreProduit(){
+    let panier = getPanier();
+    let nombre = 0
+    for(let produit of panier){
+        nombre += produit.quantite;
+    }
+    return nombre
+}
+
+
+function GetTotal(){
+    let panier = getPanier();
+    let total = 0
+    for(let produit of panier){
+        total += produit.quantite * produit.prix;
+    }
+    return total;
 }
