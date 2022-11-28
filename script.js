@@ -31,3 +31,34 @@ function listeAll(){
 
         document.getElementById('test').innerHTML = listeChaussure
 }
+
+
+
+/// TEST
+
+function savePanier(panier) {
+    localStorage.setitem("panier",JSON.stringify(panier))
+}
+
+function getPanier() {
+    let panier = localStorage.getItem("panier");
+    if(panier == null){
+        return [];
+    }else{
+        return JSON.parse(panier)
+    }
+}
+
+function addPanier(produit){
+    let panier = getPanier();
+    let foundProduit = panier.find(x => x.id == produit.id)
+    if(foundProduit != undefined){ 
+        foundProduit.quantite++;    
+    }else{ 
+        Produit.quantite = 1;
+        panier.push(produit);
+
+    }
+    savePanier(panier);
+
+}
