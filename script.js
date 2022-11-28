@@ -62,3 +62,17 @@ function addPanier(produit){
     savePanier(panier);
 
 }
+
+function removeFromPanier(produit) {
+    let panier = getPanier();
+    panier = panier.filter(x => x.id != produit.id);
+}
+
+function changeQuantite(produit, quantite) {
+    let panier = getPanier();
+    let foundProduit = panier.find(x => x.id == produit.id );
+    if (foundProduit != undefined) {
+        foundProduit.quantite += quantite;
+    }
+    savePanier(panier);
+}
