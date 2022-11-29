@@ -18,23 +18,10 @@ const Chaussure9 = new Chaussure('src/Chaussure 9.webp','Chaussure M&M S x ADIDA
 let chaussure = [];
 chaussure.push(Chaussure1,Chaussure2,Chaussure3,Chaussure4,Chaussure5,Chaussure6,Chaussure7,Chaussure8,Chaussure9);
 
-function listeAll(){
-    let listeChaussure = '';
 
-    chaussure.forEach(prod =>
-        listeChaussure += `
-        <tr class"txtCenterJs>
-            <td><imf src= ${prod.img} class "respImgJs"
-            <td>${prod.nom}</td>
-        `
-        )
-
-        document.getElementById('test').innerHTML = listeChaussure
-}
+/// TEST ///
 
 
-
-/// TEST
 
 function savePanier(panier) {
     localStorage.setitem("panier",JSON.stringify(panier))

@@ -90,17 +90,17 @@ body {
     margin-right: 5%;
 }
 
-#videoContent{
+.videoContent{
     position: relative;
 }
 
-#backgroundVideo{
+.backgroundVideo{
     max-width: 100%;
     position: absolute;
     
 }
 
-#txtVid{
+.txtVid{
 
     padding-top: 15%;
     padding-left: 10%;
@@ -112,7 +112,7 @@ body {
     color: white;
 }   
 
-#posTitre{
+.posTitre{
     display: flex;
 }
 
@@ -120,7 +120,7 @@ body {
    
 }
 
-#test{
+.behindVideo{
     background-color: black;
     height: 750px;
     position: static;
