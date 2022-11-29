@@ -18,6 +18,19 @@ const Chaussure9 = new Chaussure('src/Chaussure 9.webp','Chaussure M&M S x ADIDA
 let chaussure = [];
 chaussure.push(Chaussure1,Chaussure2,Chaussure3,Chaussure4,Chaussure5,Chaussure6,Chaussure7,Chaussure8,Chaussure9);
 
+products.forEach(prod=> {
+    listOfProducts +=  ` 
+      <tr class="text-center">
+        <td><img src=${prod.pic} class="img-fluid img-thumbnail w-50"></td>
+        <td class="w-25 align-middle">${prod.name}</td>
+        <td class="w-25 align-middle">${prod.price}€</td>
+        <td class="w-25 align-middle"><button class="btn btn-info">View</button></td>
+      </tr>
+      `   
+  )
+ 
+document.getElementById('productList').innerHTML = listOfProducts;
+}
 
 /// TEST ///
 
