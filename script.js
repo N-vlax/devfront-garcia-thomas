@@ -1,23 +1,31 @@
-function produit(img,nom,cat,prix){
-    this.id = id,
-    this.img = img,
-    this.nom = nom,
-    this.cat = cat,
-    this.prix = prix,
+function produit(id,img,nom,cat,prix){
+    this.id = id;
+    this.img = img;
+    this.nom = nom;
+    this.cat = cat;
+    this.prix = prix;
 }
 
-const Chaussure1 = new produit('1','src/Chaussure 1.webp','Chaussure Forum Low','Originals',130);
-const Chaussure2 = new produit('2','src/Chaussure 2.webp','Chaussure basse Forum Exhibit','Originals',120);
-const Chaussure3 = new produit('3','src/Chaussure 3.webp','Chaussure Ultraboost 22','Performance',80);
-const Chaussure4 = new produit('4','src/Chaussure 4.webp','Chaussure Superstar','Originals',60);
-const Chaussure5 = new produit('5','src/Chaussure 5.webp','Chaussure Daily 3.0','Sportwear',200);
-const Chaussure6 = new produit('6','src/Chaussure 6.webp','Chaussure Daily 3.2','Sportwear',200);
-const Chaussure7 = new produit('7','src/Chaussure 7.webp','Chaussure Trezoid','Originals',130);
-const Chaussure8 = new produit('8','src/Chaussure 8.webp','Chaussure Forum Low dos','Originals',130);
-const Chaussure9 = new produit('9','src/Chaussure 9.webp','Chaussure M&M S x ADIDAS','Originals',130);
+function createproduit(id, img, nom, cat, prix) {
+    Chaussure = new produit(id, img, nom, cat, prix)
+    return
 
-let produit = [];
-produit.push(Chaussure1,Chaussure2,Chaussure3,Chaussure4,Chaussure5,Chaussure6,Chaussure7,Chaussure8,Chaussure9);
+let chaussure2 {
+    
+}
+        //'1','src/Chaussure 1.webp','Chaussure Forum Low','Originals',130);
+}
+//const Chaussure2 = new produit('2','src/Chaussure 2.webp','Chaussure basse Forum Exhibit','Originals',120);
+//const Chaussure3 = new produit('3','src/Chaussure 3.webp','Chaussure Ultraboost 22','Performance',80);
+//const Chaussure4 = new produit('4','src/Chaussure 4.webp','Chaussure Superstar','Originals',60);
+//const Chaussure5 = new produit('5','src/Chaussure 5.webp','Chaussure Daily 3.0','Sportwear',200);
+//const Chaussure6 = new produit('6','src/Chaussure 6.webp','Chaussure Daily 3.2','Sportwear',200);
+//const Chaussure7 = new produit('7','src/Chaussure 7.webp','Chaussure Trezoid','Originals',130);
+//const Chaussure8 = new produit('8','src/Chaussure 8.webp','Chaussure Forum Low dos','Originals',130);
+//const Chaussure9 = new produit('9','src/Chaussure 9.webp','Chaussure M&M S x ADIDAS','Originals',130);
+
+// let produit = [];
+// produit.push(Chaussure1,Chaussure2,Chaussure3,Chaussure4,Chaussure5,Chaussure6,Chaussure7,Chaussure8,Chaussure9);
 
 
 function savePanier(panier) {
@@ -83,4 +91,11 @@ function GetTotal(){
         total += produit.quantite * produit.prix;
     }
     return total;
+}
+
+
+function changeImg(img){
+    geteElementById
+    Chaussure2.img = img
+    return
 }
