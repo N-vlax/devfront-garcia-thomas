@@ -1,20 +1,82 @@
-function produit(id,img,nom,cat,prix){
-    this.id = id;
-    this.img = img;
-    this.nom = nom;
-    this.cat = cat;
-    this.prix = prix;
-}
+// function produit(id,img,nom,cat,prix){
+//     this.id = id;
+//     this.img = img;
+//     this.nom = nom;
+//     this.cat = cat;
+//     this.prix = prix;
+// }
 
-function createproduit(id, img, nom, cat, prix) {
-    Chaussure = new produit(id, img, nom, cat, prix)
-    return
+// function createproduit(id, img, nom, cat, prix) {
+//     Chaussure = new produit(id, img, nom, cat, prix)
+//     return
 
-let chaussure2 {
+// let chaussure2 {
     
-}
+    let Chaussure1 = {     
+        name: "Chaussure Forum Low", 
+        cat: "Originals",
+        prix: "130€",
+        img: "src/Chaussure 1.webp",
+      };
+
+    let Chaussure2 = {     
+        name: "Chaussure basse Forum Exhibit", 
+        cat: "Originals",
+        prix: "120€",
+        img: "src/Chaussure 2.webp",
+      };
+
+    let Chaussure3 = {     
+        name: "Chaussure Ultraboost 22", 
+        cat: "Performance",
+        prix: "80€",
+        img: "src/Chaussure 3.webp",
+      };
+
+    let Chaussure4 = {     
+        name: "Chaussure Superstar", 
+        cat: "Originals",
+        prix: "60€",
+        img: "src/Chaussure 4.webp",
+      };
+
+    let Chaussure5 = {     
+        name: "Chaussure Daily 3.0", 
+        cat: "Sportwear",
+        prix: "200€",
+        img: "src/Chaussure 5.webp",
+      };
+
+    let Chaussure6 = {     
+        name: "Chaussure Daily 3.2", 
+        cat: "Sportwear",
+        prix: "200€",
+        img: "src/Chaussure 6.webp",
+      };
+
+    let Chaussure7 = {     
+        name: "Chaussure Trezoid", 
+        cat: "Originals",
+        prix: "130€",
+        img: "src/Chaussure 7.webp",
+      };
+
+    let Chaussure8 = {     
+        name: "Chaussure Forum Low dos", 
+        cat: "Originals",
+        prix: "130€",
+        img: "src/Chaussure 8.webp",
+      };
+    
+    let Chaussure9 = {     
+        name: "Chaussure M&M S x ADIDAS", 
+        cat: "Originals",
+        prix: "130€",
+        img: "src/Chaussure 9.webp",
+      };
+// }
         //'1','src/Chaussure 1.webp','Chaussure Forum Low','Originals',130);
-}
+// }
 //const Chaussure2 = new produit('2','src/Chaussure 2.webp','Chaussure basse Forum Exhibit','Originals',120);
 //const Chaussure3 = new produit('3','src/Chaussure 3.webp','Chaussure Ultraboost 22','Performance',80);
 //const Chaussure4 = new produit('4','src/Chaussure 4.webp','Chaussure Superstar','Originals',60);
