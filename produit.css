@@ -103,7 +103,7 @@ body {
 
 #titre { 
     font-size: xx-large;
-    margin-bottom: 8%;
+    margin-bottom: 0.1%;
     margin-top: -1%;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 
 .margBot {
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
 
 .imgPetitDesc {
@@ -129,7 +129,7 @@ body {
 }
 
 #btnProd {
-    margin-top: 3%;
+    margin-top: 1%;
     width: 40%;
     height: 35%;
     background-color: black ;
@@ -137,3 +137,8 @@ body {
     font-size: x-large;
 }
 
+.prixProd{
+    color: darkorange;
+    font-size:xx-large;
+    font-weight: 1000;
+}
