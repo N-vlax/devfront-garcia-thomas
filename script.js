@@ -71,7 +71,7 @@
     let Chaussure9 = {     
         name: "Chaussure M&M S x ADIDAS", 
         cat: "Originals",
-        prix: "130€",
+        prix: "145€",
         img: "src/Chaussure 9.webp",
       };
 // }

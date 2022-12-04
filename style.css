@@ -123,7 +123,7 @@ a{
 }
 
 .posPara{
-   
+   display: flex;
 }
 
 .behindVideo{
@@ -143,6 +143,7 @@ a{
    padding-bottom: 20px;
 
 }
+
 
 .cardProduitsCarre {
     width: 50%;
@@ -188,6 +189,11 @@ margin-left: 4%;
     max-height: 60%;
 }
 
+.prixProd{
+    color: darkorange;
+    font-size:large;
+    font-weight: 1000;
+}
 
 .containerBox2 {
     display: flex;
