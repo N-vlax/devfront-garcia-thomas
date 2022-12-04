@@ -157,7 +157,6 @@ function GetTotal(){
 
 
 function changeImg(img){
-    geteElementById
-    Chaussure2.img = img
+    img = "src/Chaussure 2.webp"
     return
 }
