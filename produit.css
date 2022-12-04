@@ -110,7 +110,6 @@ body {
 #descProduit {
     display: flex;
     flex-direction: column;
-    margin-top: %;
     width: 35%;
 }
 

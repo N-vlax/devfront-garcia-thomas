@@ -5,42 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="produit.css">
+    <link rel="stylesheet" href="panier.css">
     
 </head>
 <body>
 
-    <section id="BarreTopRetour">
-        <p id="ColorBarreTopTxt">Retours et échanges gratuits</p>
-      </section>
-      
-      <section id="Navbar">
-      
-          <div id="logo">
-      
-            <img id="logoDim" src="src/logo.svg" alt="">
-      
-          </div>
-      
-          <div id="lienCentraux">
-      
-            <a class='cgmTxt' href="#">Accueil</a>
-            <a class='cgmTxt' href="#">Panier</a>
-            <a class='cgmTxt' href="#">Contact</a>
-      
-          </div>
-      
-          <div id="iconPosition">
-      
-            <a id="panierMarge"href="#"><svg id="svgPanier" xmlns="http://www.w3.org/2000/svg" viewBox="5 5 576 512"><path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H76.1l60.3 316.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H179.9l-9.1-48h317c14.3 0 26.9-9.5 30.8-23.3l54-192C578.3 52.3 563 32 541.8 32H122l-2.4-12.5C117.4 8.2 107.5 0 96 0H24zM176 512c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm336-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48z"/></svg>
-            </a>
-      
-          </div>
-      
-      </section>
+  <section id="BarreTopRetour">
+    <p id="ColorBarreTopTxt">Retours et échanges gratuits</p>
+  </section>
+  
+  <section id="Navbar">
+  
+      <div id="logo">
+  
+        <img id="logoDim" src="src/logo.svg" alt="">
+  
+      </div>
+  
+      <div id="lienCentraux">
+  
+        <a class='cgmTxt' href="#">Accueil</a>
+        <a class='cgmTxt' href="#">Panier</a>
+        <a class='cgmTxt' href="#">Contact</a>
+  
+      </div>
+  
+      <div id="iconPosition">
+  
+        <a id="panierMarge" href="#"><svg id="svgPanier" xmlns="http://www.w3.org/2000/svg" viewBox="5 5 576 512"><path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H76.1l60.3 316.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H179.9l-9.1-48h317c14.3 0 26.9-9.5 30.8-23.3l54-192C578.3 52.3 563 32 541.8 32H122l-2.4-12.5C117.4 8.2 107.5 0 96 0H24zM176 512c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm336-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48z"/></svg>
+        </a>
+  
+      </div>
+  
+  </section>
 
+  <h1 id="titre">Votre panier :</h1>
+
+  <section class="ligneProd">
+
+    <div class="placeBlockProd">
+
+      <img class="espace" id="imgProd" src="src/Chaussure4.webp" alt="">
+
+      <p class="espace">Chaussure Superstar</p>
+
+      <p id="colorPrix" class="espace">60 €</p>
+
+      <button class="btnAj, espace2">Ajouter</button>
+      <button class="btnAj, espace2">Supprimer</button>
+
+
+    </div>
     
+  </section>
 
+  <section class="ligneProd">
+
+    <div class="placeBlockProd">
+
+      <img class="espace" id="imgProd" src="src/Chaussure9.webp" alt="">
+
+      <p class="espace">Chaussure M&M S x ADIDAS</p>
+
+      <p id="colorPrix" class="espace">145 €</p>
+
+      <button class="btnAj, espace2">Ajouter</button>
+      <button class="btnAj, espace2">Supprimer</button>
+
+
+    </div>
+    
+  </section>
+
+  <section id="form">
+
+    <form action="contact.html" method="post">
+      <div>
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="name">Prénom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+      <div>
+          <label for="mail">e-mail:</label>
+          <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+        <label for="mail">Adresse de livraison:</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+          <label for="mail">Code postal:</label>
+          <input type="email" id="mail" name="user_mail">
+      </div>
+    </form>
+
+  </section>
 
     
       <script src="script.js"></script>    
