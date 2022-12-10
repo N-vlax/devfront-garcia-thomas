@@ -364,7 +364,10 @@ margin-left: 4%;
 
     .txtVid {
         padding-top: 6%;
-        position:relative;
+        padding-bottom: 6%;
+        position: relative;
+        color: black;
+        background-color: beige;
     }
 
     #barreJauneMembre {
@@ -409,9 +412,6 @@ margin-left: 4%;
 
     .btnVid {
         background-color: black;
-    }
-
-    a {
         color: white;
     }
 
