@@ -342,3 +342,109 @@ margin-left: 4%;
         font-size: xxx-large;
     }
  }
+
+
+
+ @media (min-width: 390px) and (max-width: 844px) { 
+    
+
+    h4{
+        font-size: x-large;
+    }
+
+    .behindVideo {
+        display: none;
+    }
+
+    .backgroundVideo {
+        max-width: 100%;
+        position: absolute;
+        display: none;
+    }
+
+    .txtVid {
+        padding-top: 6%;
+        position:relative;
+    }
+
+    #barreJauneMembre {
+    
+        margin-bottom: -7%;
+    }
+
+    .selectArt {
+        display: flex;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #barreJauneTxt {
+        text-decoration: black;
+        font-family: 'Roboto' black;
+        font-size: x-large;
+        font-weight: 800;
+        text-align: center;
+        padding: 2%;
+    }
+
+    .containerBox {
+        flex-wrap: wrap;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .txtVid {
+        padding-top: 6%;
+        color: black;
+    }
+
+    .btnVid {
+        background-color: black;
+    }
+
+    a {
+        color: white;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .containerBox2 {
+        flex-wrap: wrap;
+    }
+
+    .prixProd {
+        font-size: x-large;
+    }
+
+    .dim {
+        font-size: larger;
+    }
+
+    .posTitre {
+        font-size: x-large;
+    }
+
+    .btnVid {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .selectArt {
+        margin-top: 10%;
+        margin-left: 4%;
+        font-size: xx-large;
+    }
+ }
