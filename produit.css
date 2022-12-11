@@ -171,8 +171,37 @@ body {
 
 @media (min-width: 390px) and (max-width: 844px) { 
 
-
-
-
+    #placementElements {
+        flex-direction: column;
+        align-items: center;
+    }
     
+    #imgAvant {
+        width: 60%;
+    }
+    
+    #descProduit {
+        width: 60%;
+        margin-top: 5%;
+    }
+    
+    .imgPetitDesc {
+        display: none;
+    }
+    
+    #titre {
+        font-size: x-large;
+    }
+
+    .prixProd {
+        font-size: x-large;
+    }
+    
+    .btnColor {
+        width: 9%;
+    }
 }
+    
+
+
+
