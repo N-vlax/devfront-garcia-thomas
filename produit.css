@@ -169,7 +169,7 @@ body {
 }
 
 
-@media (min-width: 390px) and (max-width: 844px) { 
+@media (min-width: 390px) and (max-width: 819px) { 
 
     #placementElements {
         flex-direction: column;

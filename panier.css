@@ -150,10 +150,8 @@ max-width: 7%;
 
 
 form {
-    /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
     width: 400px;
-    /* Encadré pour voir les limites du formulaire */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -202,31 +200,50 @@ form {
 
 @media (min-width: 820px) and (max-width: 1180px) { 
 
-    #placementElements {
-        flex-direction: column;
-        align-items: center;
+    .placeBlockProd {
+        flex-direction:initial;
+        font-size: medium;
+        margin-bottom: 5%;
+    }
+
+    
+    #imgProd {
+        max-width: 25%;
+    }
+
+    form {
+        width: 320;
+        background-color: beige;
+        border-color: white;
+    }
+
+    label {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    input, textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+    .espace {
+        margin: 1%;
+        font-size: x-large;
+    }
+
+
     }
     
-    #imgAvant {
-        width: 60%;
-    }
     
-    #descProduit {
-        width: 60%;
-        margin-top: 5%;
-    }
-    
-    .imgPetitDesc {
-        display: none;
-    }
-    
-    }
-    
-    
-    @media (min-width: 390px) and (max-width: 844px) { 
+    @media (min-width: 390px) and (max-width: 819px) { 
     
         .placeBlockProd {
-            flex-direction: column;
+            flex-direction:column;
             font-size: medium;
             margin-bottom: 5%;
         }
