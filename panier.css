@@ -280,6 +280,12 @@ form {
             padding-right: 5px;
             padding-left: 5px;
         }
+
+        #svgPanier {
+            color: black;
+            width: 20%;
+        }
+    
     }
         
     

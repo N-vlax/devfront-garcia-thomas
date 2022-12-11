@@ -341,6 +341,13 @@ margin-left: 4%;
         margin-left: 4%;
         font-size: xxx-large;
     }
+
+
+
+
+    .center {
+        font-size: large;
+    }
  }
 
 
@@ -452,5 +459,18 @@ margin-left: 4%;
         font-size: medium;
         padding-right: 5px;
         padding-left: 5px;
+    }
+
+    #svgPanier {
+        color: black;
+        width: 20%;
+    }
+
+
+
+
+
+    #confirm {
+        font-size: xx-small;
     }
  }
