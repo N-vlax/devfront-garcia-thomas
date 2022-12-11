@@ -141,3 +141,38 @@ body {
     font-size:xx-large;
     font-weight: 1000;
 }
+
+
+
+
+
+@media (min-width: 820px) and (max-width: 1180px) { 
+
+#placementElements {
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgAvant {
+    width: 60%;
+}
+
+#descProduit {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.imgPetitDesc {
+    display: none;
+}
+
+}
+
+
+@media (min-width: 390px) and (max-width: 844px) { 
+
+
+
+
+    
+}
