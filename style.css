@@ -447,4 +447,10 @@ margin-left: 4%;
         margin-left: 4%;
         font-size: xx-large;
     }
+
+    .cgmTxt {
+        font-size: medium;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
  }

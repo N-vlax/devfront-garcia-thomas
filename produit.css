@@ -200,6 +200,12 @@ body {
     .btnColor {
         width: 9%;
     }
+
+    .cgmTxt {
+        font-size: medium;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }
     
 
