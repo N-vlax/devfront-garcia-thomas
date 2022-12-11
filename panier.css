@@ -126,7 +126,7 @@ a{
 
 }
 
-#imgProd{
+.imgProd{
 max-width: 7%;
 
 }
@@ -135,7 +135,7 @@ max-width: 7%;
     margin: 2%;
 }
 
-#colorPrix{
+.colorPrix{
     color: darkorange;
     font-weight: 900;
 }
@@ -207,12 +207,12 @@ form {
     }
 
     
-    #imgProd {
+    .imgProd {
         max-width: 25%;
     }
 
     form {
-        width: 320;
+        width: 320px;
         background-color: beige;
         border-color: white;
     }
@@ -248,12 +248,12 @@ form {
             margin-bottom: 5%;
         }
 
-        #imgProd {
+        .imgProd {
             max-width: 30%;
         }
 
         form {
-            width: 320;
+            width: 320px;
             background-color: beige;
             border-color: white;
         }
